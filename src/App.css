@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://img.freepik.com/free-vector/pizza-seamless-pattern-background-vector-illustration_7087-1696.jpg?size=338&ext=jpg&ga=GA1.2.1239089260.1637020800);
+}
+
+.delete-btn {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+.start {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.load-error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.load-error p {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+}

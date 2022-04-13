@@ -1,0 +1,94 @@
+.cont {
+  width: 100%;
+  height: 100vh;
+  /* background-color: #6996d3; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.item1 {
+  height: 20px;
+  width: 20px;
+
+  border-radius: 10px;
+  margin: 5px;
+  animation: move 1s ease;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  background-color: #05316d;
+}
+.item2 {
+  height: 20px;
+  width: 20px;
+
+  border-radius: 10px;
+  margin: 5px;
+  animation: move 1s ease;
+  animation-delay: 0.1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  background-color: #05316d;
+}
+.item3 {
+  height: 20px;
+  width: 20px;
+
+  border-radius: 10px;
+  margin: 5px;
+  animation: move 1s ease;
+  animation-delay: 0.2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  background-color: #05316d;
+}
+.item4 {
+  height: 20px;
+  width: 20px;
+
+  border-radius: 10px;
+  margin: 5px;
+  animation: move 1s ease;
+  animation-delay: 0.3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  background-color: #05316d;
+}
+.item5 {
+  height: 20px;
+  width: 20px;
+
+  border-radius: 10px;
+  margin: 5px;
+  animation: move 1s ease;
+  animation-delay: 0.4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  background-color: #05316d;
+}
+.item6 {
+  height: 20px;
+  width: 20px;
+
+  border-radius: 10px;
+  margin: 5px;
+  animation: move 1s ease;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  background-color: #05316d;
+}
+@keyframes move {
+  0% {
+    height: 200px;
+    background-color: #284c7e;
+  }
+  50% {
+    background-color: #05316d;
+  }
+  100% {
+    height: 20px;
+    background-color: #284c7e;
+  }
+}
